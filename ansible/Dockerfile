@@ -7,6 +7,6 @@ RUN apk update && apk add \
   openssl-dev
 
 RUN pip install \
-  ansible==2.0.2
-  boto
+  ansible==2.0.2 \
+  boto \
   pywinrm
